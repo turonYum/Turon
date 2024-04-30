@@ -1,0 +1,170 @@
+@font-face {
+    font-family: valorant;
+    src: url("/fonts/Valorant.ttf");
+  }
+
+@font-face {
+    font-family: jetJames;
+    src: url("/fonts/JetJaneMono\ Bold.ttf");
+}
+
+@font-face {
+    font-family: american;
+    src: url("/fonts/American\ Captain.ttf");
+}
+
+.navbar-light .navbar-nav .nav-link{
+    font-family: jetJames;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+}
+
+.turon-brand {
+    max-height: 50px;
+}
+
+.play {
+    font-family: jetJames;
+}
+
+.navbar-nav {
+    justify-content: center;
+    align-items: center;
+    margin-right: 1%;
+}
+
+.nav-item {
+    padding-right: 10%;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    transition: all 0.3s ease 0s;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: red;
+}
+
+.play button {
+    padding: 9px 25px;
+    color: white;
+    background-color: rgb(219, 58, 58);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.play button:hover {
+    background-color: rgb(192, 11, 11);
+}
+
+header {
+    justify-content: space-between;
+    background-size: cover;
+    align-items: center;
+}
+
+.bg-dark{
+    background: rgb(0, 0, 0) !important;
+}
+
+main {
+    padding-top: 100px;
+    padding-bottom: 25px;
+    min-height: 100vh;
+}
+
+.Gameplay {
+    margin-left: 150px;
+    font-family: american;
+    font-size: 90px;
+    color: rgb(213, 48, 48);
+}
+
+footer {
+    background-color: #111;
+    margin-top: auto;
+    position: relative;
+    bottom: 0;
+}
+
+.footerContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 15px 150px 15px 150px;
+}
+
+.footerText {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 18px;
+    padding-bottom: 15px;
+}
+
+.download {
+    font-family: jetJames;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.download a {
+    color: white;
+    text-decoration: none;
+}
+
+.footerContainer a {
+    font-family: jetJames;
+    font-size: 18px;
+    padding-top: 5px
+}
+
+.footerContainer a {
+    text-decoration: none;
+    color: white;
+}
+
+.socialIcons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.socialIcons a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.socialIcons a i {
+    font-size: 2em;
+    color: black;
+    opacity: 0.9;
+}
+
+/* hover effect icons*/
+
+.socialIcons a:hover {
+    background-color: #111;
+    transition: 0.5s;
+}
+
+.socialIcons a:hover i {
+    color: white;
+    transition: 0.5s;
+}
+
+.footerBottom {
+    align-items: center;
+    background-color: black;
+    text-align: center;
+}
+
+.footerBottom p {
+    color: white;
+}

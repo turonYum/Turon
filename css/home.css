@@ -1,0 +1,700 @@
+@font-face {
+    font-family: valorant;
+    src: url("../fonts/Valorant\ Font.ttf");
+  }
+
+@font-face {
+    font-family: jetJames;
+    src: url("../fonts/JetJaneMono\ Bold.ttf");
+}
+
+@font-face {
+    font-family: american;
+    src: url("../fonts/American\ Captain.ttf");
+}
+
+.tyronevid {
+    margin-top: 90px;
+    margin-left: 20px;
+    position: fixed;
+    z-index: 1000;
+}
+
+.tyronevid video {
+    width: 100px;
+    transition: .5s;
+}
+
+.tyronevid video:hover {
+    transition: .5s;
+    width: 800px;
+}
+
+
+.navbar-light .navbar-nav .nav-link{
+    font-family: jetJames;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+}
+
+
+.turon-brand {
+    max-height: 50px;
+}
+
+.play {
+    font-family: jetJames;
+}
+
+.navbar-nav {
+    justify-content: center;
+    align-items: center;
+    margin-right: 1%;
+}
+
+.nav-item {
+    padding-right: 10%;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    transition: all 0.3s ease 0s;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: red;
+}
+
+.play button {
+    padding: 9px 25px;
+    color: white;
+    background-color: rgb(219, 58, 58);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.play button:hover {
+    background-color: rgb(192, 11, 11);
+}
+
+header {
+    height: 100vh;
+    min-height: 400px;
+    justify-content: space-between;
+    background-size: cover;
+    align-items: center;
+    background-image: url("../images/gifbackground.gif");
+}
+
+.button-container {
+    height: 800px;
+    position: relative;
+}
+  
+.button-center {
+    margin: 0;
+    position: absolute;
+    top: 540px;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.button-center button {
+    background-color: rgb(213, 48, 48);
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    transition: .3s;
+}
+
+.button-center button:hover {
+    background-color: rgba(197, 28, 28, 0.897);
+    transition: .3s;
+}
+
+.text-container {
+    font-family: jetJames;
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 310px;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.text-container p {
+    color: white;
+    font-size: 23px;
+    text-shadow: 2px 2px #111;
+}
+
+.text-containerr {
+    font-family: jetJames;
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 610px;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.text-containerr h4 {
+    color: white;
+    font-size: 17px;
+    font-weight: 900;
+    text-shadow: 1px 1px #111;
+}
+
+
+.TEXT {
+    font-family: valorant;
+    text-align: center;
+    color: white;
+    margin: 0;
+    position: absolute;
+    top: 445px;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.TEXT h1 {
+    font-size: 160px;
+    padding-bottom: 30px;
+    text-shadow: 10px 10px #111;
+}
+
+.button-center a {
+    font-family: jetJames;
+    text-decoration: none;
+    color: white;
+}
+
+.bg-dark{
+    background: rgb(0, 0, 0) !important;
+}
+
+.turonn img {
+    position: fixed;
+    margin-left: 1600px;
+    width: 20%;
+    margin-right: auto;
+    margin-top: -500px;
+    rotate: -25deg;
+    z-index: 100;
+}
+
+.turonn img:active {
+    position: fixed;
+    margin-left: 1600px;
+    width: 20%;
+    margin-right: auto;
+    margin-top: -500px;
+    rotate: 25deg;
+    z-index: 100;
+}
+
+hr {
+    margin-bottom: 0;
+    margin-top: 45px;
+    color: #0e0e0e;
+    background-color: #111;
+    height: 10px;
+    border: none;
+    padding: 3px;
+    width: 70%;
+    align-items: center;
+    justify-content: center;
+}
+
+.container hr {
+    margin-bottom: 0;
+    margin-top: 100px;
+    color: #ff0000;
+    background-color: #ff0000;
+    height: 5px;
+    border: none;
+    padding: 3px;
+    width: 120%;
+    margin-left: 20%;
+    align-items: end;
+    justify-content: right;
+}
+
+.hr {
+    margin-bottom: 50px;
+    color: #000000;
+    background-color: #000000;
+    height: 3px;
+    border: none;
+    padding: 2px;
+    width: 70%;
+    margin-left: 30%;
+    align-items: end;
+    justify-content: right;
+}
+
+main {
+    background: url(../images/background-sprite.png);
+    background-repeat: repeat-y;
+    background-size: 46vw;
+    background-position: 110px 150px;
+    margin-bottom: 100px;
+}
+
+.rate {
+    background: url(../images/background-sprite.png);
+    background-repeat: repeat-y;
+    background-size: 40vw;
+    background-position: 110px 300px;
+}
+
+.Gameplay {
+    margin-top: 10px;
+    margin-left: 0;
+    font-family: american;
+    font-size: 10em;
+    color: rgb(213, 48, 48);
+    text-shadow: 2px 2px #0e0e0e;
+}
+
+.infor {
+    margin-top: 10px;
+    margin-left: 70px;
+    margin-right: 50px;
+    font-size: 1.28em;
+    text-indent: 10%;
+    text-align: justify;
+}
+
+.pc {
+    margin-top: 0;
+    font-family: american;
+    font-size: 7em;
+    padding: 0;
+    margin-bottom: 0;
+    color: rgb(49, 48, 48);
+    text-shadow: 2px 2px #881212;
+    margin-bottom: 0;
+}
+
+.reqss {
+    margin-top: -50px;
+    font-family: american;
+    font-size: 10em;
+    color: rgb(49, 48, 48);
+    text-shadow: 2px 2px #881212;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+table, th, td {
+    padding: 30px 60px 30px 60px;
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+
+td {
+    font-family: jetJames;
+    font-size: 20px;
+    transition: .5s;
+}
+
+td img {
+    display: block;
+    width: 80px;
+    height: 100%;
+    rotate: 25deg;
+    transition: .5s;
+}
+
+td img:hover {
+    width: 120px;
+    height: 100%;
+    rotate: -25deg;
+    transition: .5s;
+}
+
+td:hover {
+    font-size: 40px;
+    font-weight: bold;
+    transition: .5s;
+}
+
+table, th, td:nth-child(1) {
+    border: 0px solid black;
+    border-collapse: collapse;
+    font-size: 40px;
+    font-weight: bolder;
+  }
+
+.bodyy{
+    font-family: jetJames;
+    display: grid;
+    height: 100%;
+    box-sizing: border-box;
+    place-items: center;
+    text-align: center;
+    background: #ffffff;
+    margin-bottom: 50px;
+  }
+  .containerstar {
+    position: relative;
+    width: 400px;
+    background: #111;
+    padding: 20px 30px;
+    border: 1px solid #444;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .containerstar .postt{
+    display: none;
+  }
+  .containerstar .texxt{
+    font-size: 25px;
+    color: #666;
+    font-weight: 500;
+  }
+  .containerstar .edit{
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    font-size: 16px;
+    color: #666;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  .containerstar .edit:hover{
+    text-decoration: underline;
+  }
+  .containerstar .star-widget input{
+    display: none;
+  }
+  .star-widget label{
+    font-size: 40px;
+    color: #444;
+    padding: 10px;
+    margin-bottom: 10px;
+    float: right;
+    transition: all 0.2s ease;
+  }
+  input:not(:checked) ~ label:hover,
+  input:not(:checked) ~ label:hover ~ label{
+    color: #fd4;
+  }
+  input:checked ~ label{
+    color: #fd4;
+  }
+  input#rate-5:checked ~ label{
+    color: #fe7;
+    text-shadow: 0 0 20px #952;
+  }
+  #rate-1:checked ~ form span:before{
+    content: "I HATE IT !";
+  }
+  #rate-2:checked ~ form span:before{
+    content: "I dislike it.";
+  }
+  #rate-3:checked ~ form span:before{
+    content: "It's fine.";
+  }
+  #rate-4:checked ~ form span:before{
+    content: "I like it.";
+  }
+  #rate-5:checked ~ form span:before{
+    content: "I LOVE IT !";
+  }
+  .containerstar form{
+    display: none;
+  }
+  input:checked ~ form{
+    display: block;
+  }
+  form span{
+    width: 100%;
+    font-size: 25px;
+    color: #fe7;
+    font-weight: 500;
+    margin: 20px 0 20px 0;
+    text-align: center;
+    transition: all 0.2s ease;
+  }
+  form .textarea{
+    margin-top: 15px;
+    height: 100px;
+    width: 100%;
+    overflow: hidden;
+  }
+  form .textarea textarea{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    color: #eee;
+    border: 1px solid #333;
+    background: #222;
+    padding: 10px;
+    font-size: 17px;
+    resize: none;
+  }
+  .textarea textarea:focus{
+    border-color: #444;
+  }
+  form .btn{
+    height: 45px;
+    width: 100%;
+    margin: 15px 0;
+  }
+  form .btn button{
+    height: 100%;
+    width: 100%;
+    border: 1px solid #444;
+    outline: none;
+    background: #222;
+    color: #999;
+    font-size: 17px;
+    font-weight: 500;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  form .btn button:hover{
+    background: #1b1b1b;
+  }
+
+
+.contact-container {
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+    box-sizing: border-box;
+}
+
+.contact-mid {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+
+.contact-mid h2 {
+    font-weight: 600;
+    font-family: american;
+    color: black;
+    font-size: 100px;
+    margin-bottom: 0;
+}
+
+.contact-mid-title hr {
+    border: none;
+    width: 300px;
+    height: 5px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.contact-inputs {
+    width: 400px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding-left: 25px;
+    font-weight: 500;
+    color: #666;
+    border-radius: 50px;
+}
+
+.contact-mid textarea {
+    height: 140px;
+    padding-top: 15px;
+    border-radius: 20px;
+}
+
+.contact-inputs:focus {
+    border: 2px solid rgb(213, 48, 48);;
+}
+
+.contact-inputs::placeholder {
+    color: #a9a9a9;
+}
+
+.contact-mid button {
+    display: flex;
+    align-items: center;
+    padding: 15px 30px;
+    font-size: 16px;
+    color: #fff;
+    gap: 10px;
+    border: none;
+    border-radius: 50px;
+    background: linear-gradient(270deg,rgb(45, 27, 27),rgb(213, 48, 48));
+    cursor: pointer;
+}
+
+.contact-mid button:hover {
+    background: linear-gradient(270deg,rgb(104, 22, 22),rgb(213, 48, 48));
+}
+
+.contact-mid button img {
+    height: 15px;
+}
+
+@media (max-width:800px) {
+    .contact-inputs {
+        width: 80vw;
+    }
+}
+
+
+footer {
+    background-color: #111;
+    margin-top: auto;
+    position: relative;
+    bottom: 0;
+}
+
+.footerContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 15px 150px 15px 150px;
+}
+
+.footerText {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 18px;
+    padding-bottom: 15px;
+}
+
+.download {
+    font-family: jetJames;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.download a {
+    color: white;
+    text-decoration: none;
+    transition: .3s;
+}
+
+.download a:hover {
+    transition: .3s;
+    color: rgb(213, 48, 48);
+}
+
+.footerContainer a {
+    font-family: jetJames;
+    font-size: 18px;
+    padding-top: 5px
+}
+
+.footerContainer a {
+    text-decoration: none;
+    color: white;
+    transition: .3s;
+}
+
+.footerContainer a:hover {
+  transition: .3s;
+  color: rgb(213, 48, 48);
+}
+
+.socialIcons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 2%;
+}
+
+.socialIcons a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.socialIcons a i {
+    font-size: 2em;
+    color: black;
+    opacity: 0.9;
+}
+
+/* hover effect icons*/
+
+.socialIcons a:hover {
+    background-color: #111;
+    transition: 0.5s;
+}
+
+.socialIcons a:hover i {
+    color: white;
+    transition: 0.5s;
+}
+
+.footerBottom {
+    align-items: center;
+    background-color: black;
+    text-align: center;
+}
+
+.footerBottom p {
+    color: white;
+}
+
+.footerLicense {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 17px;
+    padding-bottom: 10px;
+    background-color: rgb(48, 48, 48);
+}
+
+.footerBot {
+    align-items: center;
+    background-color: rgb(34, 33, 33);
+    text-align: center;
+    padding: 20px 50px 1px 50px;
+}
+
+.footerBot p {
+    color: white;
+}
+
+.designer {
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
+
+.license {
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    transition: .1s;
+}
+
+.license:hover {
+    transition: .1s;
+    font-size: 20px;
+}

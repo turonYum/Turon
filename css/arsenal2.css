@@ -1,0 +1,215 @@
+#ch-2 {
+    display: none;
+}
+
+#ch-2:checked ~ .content {
+    display: block;
+}
+
+#ch-2:checked ~ label {
+    display: none;
+}
+
+#ch-3 {
+    display: none;
+}
+
+#ch-3:checked ~ .content {
+    display: block;
+}
+
+#ch-3:checked ~ label {
+    display: none;
+}
+
+#ch-4 {
+    display: none;
+}
+
+#ch-4:checked ~ .content {
+    display: block;
+}
+
+#ch-4:checked ~ label {
+    display: none;
+}
+
+#ch-5 {
+    display: none;
+}
+
+#ch-5:checked ~ .content {
+    display: block;
+}
+
+#ch-5:checked ~ label {
+    display: none;
+}
+
+#ch-6 {
+    display: none;
+}
+
+#ch-6:checked ~ .content {
+    display: block;
+}
+
+#ch-6:checked ~ label {
+    display: none;
+}
+
+#ch-7 {
+    display: none;
+}
+
+#ch-7:checked ~ .content {
+    display: block;
+}
+
+#ch-7:checked ~ label {
+    display: none;
+}
+
+#ch-8 {
+    display: none;
+}
+
+#ch-8:checked ~ .content {
+    display: block;
+}
+
+#ch-8:checked ~ label {
+    display: none;
+}
+
+#ch-9 {
+    display: none;
+}
+
+#ch-9:checked ~ .content {
+    display: block;
+}
+
+#ch-9:checked ~ label {
+    display: none;
+}
+
+#ch-10 {
+    display: none;
+}
+
+#ch-10:checked ~ .content {
+    display: block;
+}
+
+#ch-10:checked ~ label {
+    display: none;
+}
+
+#ch-11 {
+    display: none;
+}
+
+#ch-11:checked ~ .content {
+    display: block;
+}
+
+#ch-11:checked ~ label {
+    display: none;
+}
+
+#ch-12 {
+    display: none;
+}
+
+#ch-12:checked ~ .content {
+    display: block;
+}
+
+#ch-12:checked ~ label {
+    display: none;
+}
+
+#ch-13 {
+    display: none;
+}
+
+#ch-13:checked ~ .content {
+    display: block;
+}
+
+#ch-13:checked ~ label {
+    display: none;
+}
+
+#ch-14 {
+    display: none;
+}
+
+#ch-14:checked ~ .content {
+    display: block;
+}
+
+#ch-14:checked ~ label {
+    display: none;
+}
+
+#ch-15 {
+    display: none;
+}
+
+#ch-15:checked ~ .content {
+    display: block;
+}
+
+#ch-15:checked ~ label {
+    display: none;
+}
+
+#ch-16 {
+    display: none;
+}
+
+#ch-16:checked ~ .content {
+    display: block;
+}
+
+#ch-16:checked ~ label {
+    display: none;
+}
+
+#ch-17 {
+    display: none;
+}
+
+#ch-17:checked ~ .content {
+    display: block;
+}
+
+#ch-17:checked ~ label {
+    display: none;
+}
+
+#ch-18 {
+    display: none;
+}
+
+#ch-18:checked ~ .content {
+    display: block;
+}
+
+#ch-18:checked ~ label {
+    display: none;
+}
+
+#ch-19 {
+    display: none;
+}
+
+#ch-19:checked ~ .content {
+    display: block;
+}
+
+#ch-19:checked ~ label {
+    display: none;
+}
